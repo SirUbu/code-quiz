@@ -8,8 +8,8 @@ body {
     height: auto;
 }
 
-h3 {
-    margin-top: 138px;
+main div {
+    padding: 0;
 }
 
 ul {
@@ -18,14 +18,14 @@ ul {
 
 li {
     margin: 15px 0;
+    border-bottom: var(--primary) solid 4px;
+    padding-bottom: 10px;
+}
+
+.score-info {
+    text-align: center;
 }
 
 .btn {
     margin-bottom: 20px;
-}
-
-.score-info {
-    background: var(--tertiary);
-    padding-left: 20px;
-    border-bottom: var(--primary) solid 4px;
 }
